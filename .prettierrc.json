@@ -1,0 +1,26 @@
+{
+	"tabWidth": 1,
+	"useTabs": true,
+	"printWidth": 100,
+	"semi": true,
+	"trailingComma": "es5",
+	"jsxSingleQuote": true,
+	"singleQuote": true,
+	"singleAttributePerLine": false,
+	"plugins": [
+		"@ianvs/prettier-plugin-sort-imports"
+	],
+	"importOrder": [
+		"^@Types(.*)",
+		"^@Types/Shared(.*)",
+		"^@Types/Blocks(.*)",
+		"",
+		"^react$",
+		"",
+		"<THIRD_PARTY_MODULES>",
+		"",
+		"^@(.*)$",
+		"",
+		"^[./]"
+	]
+}

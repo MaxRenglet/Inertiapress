@@ -1,0 +1,19 @@
+{
+    "name": "rmax/inertiapress",
+    "description": "Wordpress theme with support for inertia.js with Vite & Tailwind",
+    "version": "0.0.1",
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "MaximeR",
+            "email": "maxime.renglet@spade.be"
+        }
+    ],
+    "require": {
+        "kucrut/vite-for-wp": "^0.9.3"
+    }
+}
